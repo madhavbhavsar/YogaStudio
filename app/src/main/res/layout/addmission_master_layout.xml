@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="5dp">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:orientation="vertical"
+      android:layout_height="wrap_content">
+
+      <TextView
+          android:layout_marginStart="15dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="20sp"
+          android:textStyle="bold"
+          android:textColor="@color/black"
+          android:hint="Full Name"
+          android:id="@+id/fullnamehere"/>
+
+      <TextView
+          android:layout_marginStart="15dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="16sp"
+          android:textColor="@color/black"
+          android:hint="age"
+          android:id="@+id/agehere"/>
+
+      <TextView
+          android:layout_marginStart="15dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="16sp"
+          android:textColor="@color/black"
+          android:hint="Month"
+          android:id="@+id/monthhere"/>
+
+      <TextView
+          android:layout_marginStart="15dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="16sp"
+          android:textColor="@color/black"
+          android:hint="Batch"
+          android:id="@+id/batchhere"/>
+
+      <TextView
+          android:layout_marginStart="15dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="16sp"
+          android:textColor="@color/black"
+          android:hint="Username"
+          android:id="@+id/usernamehere"/>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:gravity="center"
+          android:orientation="horizontal">
+
+          <Button
+              android:id="@+id/completepayment"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginRight="10dp"
+              android:text="Complete Payment" />
+
+          <Button
+              android:id="@+id/renew"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:text="Renew" />
+
+
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="0dp"
+          android:gravity="center"
+          android:orientation="horizontal">
+
+          <Button
+              android:id="@+id/edit"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginRight="10dp"
+              android:text="Edit" />
+
+          <Button
+              android:id="@+id/delete"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:text="delete" />
+
+
+
+      </LinearLayout>
+
+
+
+  </LinearLayout>
+</androidx.cardview.widget.CardView>

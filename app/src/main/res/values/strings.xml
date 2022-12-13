@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">YogaStudio</string>
+
+    <string-array name="batches">
+        <item>Batch 1 (6AM-7AM)</item>
+        <item>Batch 2 (7AM-8AM)</item>
+        <item>Batch 3 (8AM-9AM)</item>
+        <item>Batch 4 (5PM-6PM)</item>
+    </string-array>
+</resources>

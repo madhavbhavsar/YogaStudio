@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "619712103953",
+    "project_id": "yogastudio-5e1ef",
+    "storage_bucket": "yogastudio-5e1ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619712103953:android:b431c5307a67672c63d3b0",
+        "android_client_info": {
+          "package_name": "com.madapps.yogastudio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619712103953-9d62kr4913itr96kk9pg3mjn0h10tp3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDilE1dGbrdqbHPD2UYb4Fr0BMj-R-mbyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619712103953-9d62kr4913itr96kk9pg3mjn0h10tp3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
